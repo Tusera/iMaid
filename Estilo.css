@@ -23,8 +23,8 @@ body {
   padding: 0 25px 25px 25px;
   border: 5px solid black;
 }
-footer{
+#footer {
     text-align: center;
-    background: #B0C4DE;
-    padding: 40px 0;
+    background: #DCDCDC;
+    padding: 5px 0;
 }
