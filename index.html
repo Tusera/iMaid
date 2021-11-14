@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>iMaid.com</title>
+	<link href="estilos/estilo.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="Titulo">
+	<h1>iMaid.com</h1>
+	</div>
+	<div id="sobre">
+	<h2>Sobre a Empresa</h2>
+	<p>A empresa tem como objetivo fornecer para o cliente profissionais confiáveis e de qualidade para realização de serviços de limpeza.</p>
+	</div>
+	<img src="Maid.jpg" alt="some text" width=400 height=300>
+	<div id="Prof">
+	<h3>Sobre os profissionais</h3>
+	<p>A iMaid.com conta com mais de 40 profissionais de limpeza, todos receberam o devido treinamento para que possam deixar sua casa impecável.</p>
+	<p>A empresa foi criado pelo CEO Felipe Augusto Oliveira Ferreira.</p>
+	</div>
+	<div id="interessado">
+	<h4>Ficou interessado?</h4>
+	<p>Basta preencher o formulário para obter mais informações, nossa equipe entrará em contato com você!</p>
+	</div>
+	<form action="/pagina-dados-do-form"
+	method="post">
+		<div>
+			<label for="nome">Seu Nome:</label>
+			<input type="text" id="nome" placeholder="Digite seu nome*">
+		</div>
+    	<div>
+   			<label for="telefone">Seu Telefone:</label>
+			<input type="number" id="telefone" placeholder="Digite seu telefone"> 	
+		</div>
+		<div>
+        	<label for="email">E-mail:</label>
+        	<input type="email" id="email" /placeholder="Digite seu e-mail*">
+    	</div>
+    	<div>
+    		<label for="ofertas">Deseja receber nossas ofertas?</label>
+    		<input type="radio" name="ofertas" value="Sim"/> Sim
+			<input type="radio" name="ofertas" value="Não"/> Não<br />
+    	</div>
+    	<div>
+        	<label for="msg">Mensagem:</label>
+        	<textarea id="msg" placeholder="Mensagem"></textarea>
+    	</div>
+    	<button type="submit">Enviar</button>
+	</form>
+	<h4>Quer fazer parte da nossa empresa?</h4>
+	<p>Basta enviar seu curriculo para: rh@imaid.com e analisaremos seu currículo</p>
+</body>
+<footer>
+    <p class="copyright">©️ iMaid.com - 2021</p>
+</footer>
+</html>
